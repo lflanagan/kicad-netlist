@@ -5,7 +5,7 @@ set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SRC="${REPO_DIR}/plugin"
-TARGET="${HOME}/Documents/KiCad/9.0/3rdparty/plugins/ionetlistkicadplugin"
+TARGET="${HOME}/Documents/KiCad/9.0/3rdparty/plugins/iotraceformerkicadplugin"
 
 echo "Linking plugin:"
 echo "  source: ${SRC}"

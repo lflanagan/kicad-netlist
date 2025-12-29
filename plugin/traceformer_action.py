@@ -8,11 +8,11 @@ from .zip_export_dialog import ZipExportDialog
 from .zip_exporter import ZipExporter
 
 
-class NetlistPluginAction(pcbnew.ActionPlugin):
+class TraceformerPluginAction(pcbnew.ActionPlugin):
     def defaults(self) -> None:
-        self.name = "Netlist.io KiCad Plugin"
-        self.category = "Netlist"
-        self.description = "Export project as ZIP for upload to netlist.io"
+        self.name = "Traceformer.io KiCad Plugin"
+        self.category = "Traceformer"
+        self.description = "Export project as ZIP for upload to traceformer.io"
         self.show_toolbar_button = True
         self.icon_file_name = os.path.join(os.path.dirname(__file__), "icon.png")
 

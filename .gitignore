@@ -28,3 +28,7 @@ MANIFEST
 
 # macOS
 .DS_Store
+
+# Virtual environments
+.venv/
+.pixi/

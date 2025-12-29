@@ -27,7 +27,7 @@ class ZipExportDialog(wx.Dialog):
             default_dir: Default export directory
             files_by_category: Dict mapping category names to file lists
         """
-        super().__init__(parent, title="Export Project for Netlist.io")
+        super().__init__(parent, title="Export Project for Traceformer.io")
 
         self.export_path: Optional[Path] = None
         self._project_name = project_name
@@ -51,7 +51,7 @@ class ZipExportDialog(wx.Dialog):
         # Description
         desc = wx.StaticText(
             self,
-            label="Create a zip archive of your KiCad project for upload to netlist.io",
+            label="Create a zip archive of your KiCad project for upload to traceformer.io",
         )
         main_sizer.Add(desc, 0, wx.LEFT | wx.RIGHT | wx.BOTTOM, 10)
 

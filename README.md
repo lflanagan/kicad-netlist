@@ -1,6 +1,6 @@
-# Netlist.io KiCad Plugin
+# Traceformer.io KiCad Plugin
 
-A KiCad plugin that packages your project files into a ZIP archive for upload to [netlist.io](https://netlist.io).
+A KiCad plugin that packages your project files into a ZIP archive for upload to [traceformer.io](https://traceformer.io).
 
 ## Features
 
@@ -17,7 +17,7 @@ A KiCad plugin that packages your project files into a ZIP archive for upload to
 
 ### From File
 
-1. Download the latest release ZIP from the [releases page](https://github.com/liamflanagan/kicad-netlist/releases)
+1. Download the latest release ZIP from the [releases page](https://github.com/lflanagan/kicad-traceformer/releases)
 2. Open KiCad → Plugin and Content Manager
 3. Click "Install from File..."
 4. Select the downloaded ZIP
@@ -33,12 +33,12 @@ For development, you can symlink the plugin directly:
 ## Usage
 
 1. Open your project in KiCad's PCB Editor
-2. Click the Netlist button in the toolbar
+2. Click the Traceformer button in the toolbar
 3. Choose your export folder and filename
 4. Review the files that will be included
 5. Click OK to create the ZIP
 
-The resulting ZIP can be uploaded directly to [netlist.io](https://netlist.io).
+The resulting ZIP can be uploaded directly to [traceformer.io](https://traceformer.io).
 
 ## Building from Source
 
